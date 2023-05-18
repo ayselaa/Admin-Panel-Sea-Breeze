@@ -1,13 +1,4 @@
 <!DOCTYPE html>
-<!--
-Template Name: NobleUI - HTML Bootstrap 5 Admin Dashboard Template
-Author: NobleUI
-Website: https://www.nobleui.com
-Portfolio: https://themeforest.net/user/nobleui/portfolio
-Contact: nobleui123@gmail.com
-Purchase: https://1.envato.market/nobleui_admin
-License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
--->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -25,27 +16,18 @@ License: For each use you must have a valid license purchased only from above li
 
     <title>Sea Breeze Admin Template</title>
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- End fonts -->
 
-    <!-- core:css -->
     <link rel="stylesheet" href="../assets/vendors/core/core.css" />
-    <!-- endinject -->
-
-    <!-- Plugin css for this page -->
     <link
       rel="stylesheet"
       href="../assets/vendors/flatpickr/flatpickr.min.css"
     />
-    <!-- End plugin css for this page -->
-
-    <!-- inject:css -->
     <link
       rel="stylesheet"
       href="../assets/fonts/feather-font/css/iconfont.css"
@@ -56,15 +38,12 @@ License: For each use you must have a valid license purchased only from above li
       rel="stylesheet"
       href="../assets/vendors/flag-icon-css/css/flag-icon.min.css"
     />
-    <!-- endinject -->
-
-    <!-- Layout styles -->
     <link rel="stylesheet" href="../assets/css/demo1/style.css" />
-    <!-- End layout styles -->
 
     <link rel="shortcut icon" href="../assets/images/favicon.png" />
   </head>
-  <style>.form{
+  <style>
+  .form{
 
     position: relative;
 }
@@ -106,7 +85,6 @@ License: For each use you must have a valid license purchased only from above li
 }</style>
   <body>
     <div class="main-wrapper">
-      <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar">
         <div class="sidebar-header">
           <a href="#" class="sidebar-brand">
@@ -264,7 +242,7 @@ License: For each use you must have a valid license purchased only from above li
                     />
                   </svg>
 
-                  Hotel Reservations</span
+                 Hotel Reservations</span
                 >
               </a>
             </li>
@@ -399,75 +377,102 @@ License: For each use you must have a valid license purchased only from above li
             </li>
           </ul>
         </div>
+        <div class="sidebar-logout">
+          <a class="text-muted mb-1 mb-md-0 log-out" href="">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_239_2266)">
+                <path
+                  d="M11.9602 21.9668H2.99002C2.43984 21.9668 1.99336 21.5203 1.99336 20.9702V3.02992C1.99336 2.47975 2.43989 2.03326 2.99002 2.03326H11.9602C12.5113 2.03326 12.9568 1.58776 12.9568 1.03661C12.9568 0.48545 12.5113 0.039856 11.9602 0.039856H2.99002C1.34152 0.039856 0 1.38142 0 3.02992V20.9701C0 22.6186 1.34152 23.9601 2.99002 23.9601H11.9602C12.5113 23.9601 12.9568 23.5146 12.9568 22.9635C12.9568 22.4123 12.5113 21.9668 11.9602 21.9668Z"
+                  fill="#FF7070"
+                />
+                <path
+                  d="M23.703 11.2904L17.6432 5.31028C17.2525 4.92356 16.6206 4.92858 16.2339 5.32027C15.8472 5.71196 15.8512 6.34285 16.2439 6.72956L20.5744 11.0033H8.97011C8.41895 11.0033 7.97345 11.4488 7.97345 12C7.97345 12.5511 8.41895 12.9967 8.97011 12.9967H20.5744L16.2439 17.2704C15.8512 17.6571 15.8482 18.288 16.2339 18.6797C16.4292 18.877 16.6864 18.9767 16.9435 18.9767C17.1967 18.9767 17.4498 18.881 17.6432 18.6896L23.703 12.7095C23.8924 12.5222 24 12.267 24 11.9999C24 11.7329 23.8934 11.4788 23.703 11.2904Z"
+                  fill="#FF7070"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_239_2266">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            Log out
+          </a>
+        </div>
       </nav>
-
-      <!-- partial -->
 
       <div class="page-wrapper">
         <div class="page-content">
           <div
-          class="d-flex justify-content-between align-items-center flex-wrap grid-margin" style="margin-right: 1rem;"
-        >
-          <div>
-            <h4 class="mb-3 mb-md-0" style="font-weight: 700;">
-              Hotel Reservations
-            </h4>
-
+            class="d-flex justify-content-between align-items-center flex-wrap grid-margin"
+            style="margin-right: 1rem"
+          >
+            <div>
+              <h4 class="mb-3 mb-md-0" style="font-weight: 700">
+                Hotel Reservations
+              </h4>
+            </div>
+            <div class="d-flex align-items-center flex-wrap text-nowrap">
+              <p class="time-calendar">Today, 10th September 2020</p>
+            </div>
           </div>
-          <div class="d-flex align-items-center flex-wrap text-nowrap ">
-           <p class="time-calendar ">Today, 10th September 2020</p>
-          </div>
-        </div>
 
-          <div 
+          <div
             class="d-flex justify-content-between align-items-center flex-wrap grid-margin"
           >
-           
-              <div class="col-6">
-                <div class="form">
-                  <i class="fa fa-search"></i>
-                  <input type="text" class="form-control form-input" placeholder="Search">
-                </div>
+            <div class="col-6">
+              <div class="form">
+                <i class="fa fa-search"></i>
+                <input
+                  type="text"
+                  class="form-control form-input"
+                  placeholder="Search"
+                />
               </div>
-                
+            </div>
 
-           
             <div class="d-flex align-items-center flex-wrap text-nowrap">
               <div
                 class="input-group flatpickr wd-200 me-2 mb-2 mb-md-0"
                 id="dashboardDate"
               >
-               
                 <input
                   type="text"
                   class="form-control bg-transparent"
                   placeholder="10.01.2022"
                   data-input
-                /> <span
-                class="input-group-text input-group-addon bg-transparent"
-                data-toggle
-                ><i data-feather="calendar" class="text-secondary"></i
-              ></span>
+                />
+                <span
+                  class="input-group-text input-group-addon bg-transparent"
+                  data-toggle
+                  ><i data-feather="calendar" class="text-secondary"></i
+                ></span>
               </div>
               <div
                 class="input-group flatpickr wd-200 me-2 mb-2 mb-md-0"
                 id="dashboardDate"
               >
-           
                 <input
                   type="text"
                   class="form-control bg-transparent"
                   placeholder="15.01.2022"
                   data-input
-                />     <span
-                class="input-group-text input-group-addon bg-transparent"
-                data-toggle
-                ><i data-feather="calendar" class="text-secondary"></i
-              ></span>
+                />
+                <span
+                  class="input-group-text input-group-addon bg-transparent"
+                  data-toggle
+                  ><i data-feather="calendar" class="text-secondary"></i
+                ></span>
               </div>
             </div>
           </div>
-    
+
           <div class="row">
             <div
               class="col-lg-12 col-xl-12 grid-margin grid-margin-xl-0 stretch-card"
@@ -477,89 +482,93 @@ License: For each use you must have a valid license purchased only from above li
                   class="card-body"
                   style="display: flex; flex-direction: column; gap: 1rem"
                 >
-                <table class="table">
-                  <thead class="thead-dark">
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Name, Surname</th>
-                      <th scope="col">Number of ticket</th>
-                      <th scope="col">Beach Club</th>
-                      <th scope="col">Rose Bar</th>
-                      <th scope="col">Ümumi məbləğ</th>
-                    </tr>
-                  </thead>
-                  <tbody style="font-weight: 500;">
-                    <tr>
-                      <th scope="row">01</th>
-                      <td>Saadat Abilova</td>
-                      <td>1</td>
-                      <td>120 AZN</td>
-                      <td>200 AZN</td>
-                      <td>220 AZN</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">02</th>
-                      <td>Elnur Ibrahimov </td>
-                      <td>2</td>
-                      <td>120 AZN</td>
-                      <td>-</td>
-                      <td>120 AZN</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">03</th>
-                      <td>Nazim Hamidli</td>
-                      <td>3</td>
-                      <td>120 AZN</td>
-                      <td>-</td>
-                      <td>230 AZN</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">04</th>
-                      <td>Farid Davudov</td>
-                      <td>1</td>
-                      <td>120 AZN</td>
-                      <td>-</td>
-                      <td>340 AZN</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">05</th>
-                      <td>Araz Davudov</td>
-                      <td>3</td>
-                      <td>120 AZN</td>
-                      <td>-</td>
-                      <td>340 AZN</td>
-                  
-                    </tr>
-                    <tr>
-                      <th scope="row">06</th>
-                      <td>Rovsen Ibrahimov</td>
-                      <td>4</td>
-                      <td>120 AZN</td>
-                      <td>-</td>
-                      <td>120 AZN</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">07</th>
-                      <td>Aysel Abilova</td>
-                      <td>5</td>
-                      <td>120 AZN</td>
-                      <td>-</td>
-                      <td>234 AZN</td>
-                      <td>          </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">01</th>
-                      <td>Ibrahim Aliyev</td>
-                      <td>7</td>
-                      <td>120 AZN</td>
-                      <td>-</td>
-                      <td>678 AZN</td>
-                    </tr>
-                 
-                  </tbody>
-                </table>
-                
-             
+                  <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name, Surname</th>
+                        <th scope="col">Phone Number</th>
+                        <th scope="col">Email adress</th>
+                        <th scope="col">Entry Date</th>
+                        <th scope="col">Exit Date</th>
+                        <th scope="col">Checkbox</th>
+                      </tr>
+                    </thead>
+                    <tbody style="font-weight: 500">
+                      <tr>
+                        <th scope="row">01</th>
+                        <td>Saadat Abilova</td>
+                        <td>+994 70 582 68 28</td>
+                        <td>tagiyevasadt@gmail.com</td>
+                        <td>10.01.2022</td>
+                        <td>20.10.2022</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">02</th>
+                        <td>Elnur Ibrahimov</td>
+                        <td>+994 70 582 68 28</td>
+                        <td>tagiyevasadt@gmail.com</td>
+                        <td>10.01.2022</td>
+                        <td>20.10.2022</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">03</th>
+                        <td>Nazim Hamidli</td>
+                        <td>+994 70 582 68 28</td>
+                        <td>tagiyevasadt@gmail.com</td>
+                        <td>10.01.2022</td>
+                        <td>20.10.2022</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">04</th>
+                        <td>Farid Davudov</td>
+                        <td>+994 70 582 68 28</td>
+                        <td>tagiyevasadt@gmail.com</td>
+                        <td>10.01.2022</td>
+                        <td>20.10.2022</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">05</th>
+                        <td>Araz Davudov</td>
+                        <td>+994 70 582 68 28</td>
+                        <td>tagiyevasadt@gmail.com</td>
+                        <td>10.01.2022</td>
+                        <td>20.10.2022</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">06</th>
+                        <td>Rovsen Ibrahimov</td>
+                        <td>+994 70 582 68 28</td>
+                        <td>tagiyevasadt@gmail.com</td>
+                        <td>10.01.2022</td>
+                        <td>20.10.2022</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">07</th>
+                        <td>Aysel Abilova</td>
+                        <td>+994 70 582 68 28</td>
+                        <td>tagiyevasadt@gmail.com</td>
+                        <td>10.01.2022</td>
+                        <td>20.10.2022</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">01</th>
+                        <td>Ibrahim Aliyev</td>
+                        <td>+994 70 582 68 28</td>
+                        <td>tagiyevasadt@gmail.com</td>
+                        <td>10.01.2022</td>
+                        <td>20.10.2022</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
@@ -569,34 +578,13 @@ License: For each use you must have a valid license purchased only from above li
         <footer
           class="footer d-flex flex-column flex-md-row align-items-center justify-content-between px-4 py-3 border-top small"
         >
-          <a class="text-muted mb-1 mb-md-0 log-out" href="">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_239_2266)">
-              <path d="M11.9602 21.9668H2.99002C2.43984 21.9668 1.99336 21.5203 1.99336 20.9702V3.02992C1.99336 2.47975 2.43989 2.03326 2.99002 2.03326H11.9602C12.5113 2.03326 12.9568 1.58776 12.9568 1.03661C12.9568 0.48545 12.5113 0.039856 11.9602 0.039856H2.99002C1.34152 0.039856 0 1.38142 0 3.02992V20.9701C0 22.6186 1.34152 23.9601 2.99002 23.9601H11.9602C12.5113 23.9601 12.9568 23.5146 12.9568 22.9635C12.9568 22.4123 12.5113 21.9668 11.9602 21.9668Z" fill="#FF7070"/>
-              <path d="M23.703 11.2904L17.6432 5.31028C17.2525 4.92356 16.6206 4.92858 16.2339 5.32027C15.8472 5.71196 15.8512 6.34285 16.2439 6.72956L20.5744 11.0033H8.97011C8.41895 11.0033 7.97345 11.4488 7.97345 12C7.97345 12.5511 8.41895 12.9967 8.97011 12.9967H20.5744L16.2439 17.2704C15.8512 17.6571 15.8482 18.288 16.2339 18.6797C16.4292 18.877 16.6864 18.9767 16.9435 18.9767C17.1967 18.9767 17.4498 18.881 17.6432 18.6896L23.703 12.7095C23.8924 12.5222 24 12.267 24 11.9999C24 11.7329 23.8934 11.4788 23.703 11.2904Z" fill="#FF7070"/>
-              </g>
-              <defs>
-              <clipPath id="clip0_239_2266">
-              <rect width="24" height="24" fill="white"/>
-              </clipPath>
-              </defs>
-              </svg>
-              Log out          
-          </a>
-          <p class="text-muted">
-            Handcrafted With
-            <i class="mb-1 text-primary ms-1 icon-sm" data-feather="heart"></i>
-          </p>
+        
         </footer>
         <!-- partial -->
       </div>
     </div>
 
-    <!-- core:js -->
     <script src="../assets/vendors/core/core.js"></script>
-    <!-- endinject -->
-
-    <!-- Plugin js for this page -->
     <script src="../assets/vendors/flatpickr/flatpickr.min.js"></script>
     <script src="../assets/vendors/apexcharts/apexcharts.min.js"></script>
     <!-- End plugin js for this page -->
