@@ -20783,9 +20783,7 @@ div.tox .buy-now-wrapper .tox-button svg,
 .sidebar .sidebar-body .nav .nav-item.nav-category:not(:first-child) {
   margin-top: 20px;
 }
-.sidebar .sidebar-body .nav .nav-item:hover .nav-link {
-  color: #6571ff;
-}
+
 .sidebar .sidebar-body .nav .nav-item:hover .nav-link .link-title {
   margin-left: 31px;
 }
@@ -20794,7 +20792,9 @@ div.tox .buy-now-wrapper .tox-button svg,
   fill: rgba(239, 243, 255, 0.5);
 }
 .sidebar .sidebar-body .nav .nav-item.active .nav-link {
-  color: #6571ff;
+  background: linear-gradient(95.34deg, #234356 9.13%, #60A9CB 78.18%);
+  border-radius: 10px;
+  color: white;
 }
 .sidebar .sidebar-body .nav .nav-item.active .nav-link::before {
   content: "";
@@ -23675,32 +23675,23 @@ div.tox .tox-dialog__body {
   gap: 1rem;
 }
 
-.nav-link.active{
-  background: linear-gradient(95.34deg, #234356 9.13%, #60A9CB 78.18%);
-  border-radius: 10px;
-  color: white;
-}
+
 
 .nav-link.active .link-titlee{
   color: white;
 }
+
 
 .nav-linkk{
   color: black;
   text-decoration: none;
 }
 
-.nav-link.active .link-titlee svg{
-  color: white;
-}
 
 .link-titlee svg{
  fill: gray;
 }
 
-.nav-link.active .link-titlee svg{
-  fill: white;
-}
 
 .svg-class{
   margin-top: 1rem;
@@ -23758,3 +23749,7 @@ color: black !important;
  margin-left: 2rem;
  margin-top: 2rem;
 }
+
+.nav-item.active .link-titlee svg {
+  fill: white;
+ }
