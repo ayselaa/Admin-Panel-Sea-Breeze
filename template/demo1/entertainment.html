@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,78 +12,48 @@
     <meta name="author" content="NobleUI" />
     <meta
       name="keywords"
-      content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web"
+      content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web" 
     />
 
     <title>Sea Breeze Admin Template</title>
 
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- End fonts -->
 
+    <!-- core:css -->
     <link rel="stylesheet" href="../assets/vendors/core/core.css" />
+    <!-- endinject -->
+
+    <!-- Plugin css for this page -->
     <link
       rel="stylesheet"
       href="../assets/vendors/flatpickr/flatpickr.min.css"
     />
+    <!-- End plugin css for this page -->
+
+    <!-- inject:css -->
     <link
       rel="stylesheet"
       href="../assets/fonts/feather-font/css/iconfont.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
-
       rel="stylesheet"
       href="../assets/vendors/flag-icon-css/css/flag-icon.min.css"
     />
+    <!-- endinject -->
+
+    <!-- Layout styles -->
     <link rel="stylesheet" href="../assets/css/demo1/style.css" />
+    <!-- End layout styles -->
 
     <link rel="shortcut icon" href="../assets/images/favicon.png" />
   </head>
-  <style>
-  .form{
-
-    position: relative;
-}
-
-.form .fa-search{
-
-    position: absolute;
-    top:20px;
-    left: 20px;
-    color: #b8bbc0;
-    font-size: 13px;
-    
-
-}
-
-.form span{
-
-        position: absolute;
-    right: 17px;
-    top: 13px;
-    padding: 2px;
-    border-left: 1px solid #d1d5db;
-    
-
-}
-
-.form-input{
-
-    height: 55px;
-    text-indent: 33px;
-    border-radius: 10px;
-  
-}
-
-.form-input:focus{
-
-    box-shadow: none;
-    border:none;
-}</style>
   <body>
     <div class="main-wrapper">
       <nav class="sidebar">
@@ -362,170 +333,40 @@
 
       </nav>
       <div class="page-wrapper">
-
+        
         <div class="page-content">
           <div
             class="d-flex justify-content-between align-items-center flex-wrap grid-margin"
-            style="margin-right: 1rem"
           >
             <div>
-              <h4 class="mb-3 mb-md-0" style="font-weight: 700">
-                Hotel Reservations
+              <h4 class="mb-3 mb-md-0">
+            Entertainment
               </h4>
-            </div>
-            <div class="d-flex align-items-center flex-wrap text-nowrap">
               <p class="time-calendar">Today, 10th September 2020</p>
             </div>
+
+            <select id="language-select">
+                <option value="az">AZE &#9662;</option>
+                <option value="en">English &#9662;</option>
+                <option value="fr">French &#9662;</option>
+                <option value="es">Spanish &#9662;</option>
+              </select>
           </div>
 
-          <div
-            class="d-flex justify-content-between align-items-center flex-wrap grid-margin"
-          >
-            <div class="col-6">
-              <div class="form">
-                <i class="fa fa-search"></i>
-                <input
-                  type="text"
-                  class="form-control form-input"
-                  placeholder="Search"
-                />
-              </div>
+          
+          <div class="flex-menu-admin">
+        <div class="left-right-admin">
+                  <a href="funzilla.html">Funzilla</a>
+                  <a href="#">Phobia</a>
+                  <a href="">Surfice</a>
             </div>
 
-            <div class="d-flex align-items-center flex-wrap text-nowrap">
-              <div
-                class="input-group flatpickr wd-200 me-2 mb-2 mb-md-0"
-                id="dashboardDate"
-              >
-                <input
-                  type="text"
-                  class="form-control bg-transparent"
-                  placeholder="10.01.2022"
-                  data-input
-                />
-                <span
-                  class="input-group-text input-group-addon bg-transparent"
-                  data-toggle
-                  ><i data-feather="calendar"  style="color: #c2c4c9;"></i ></span>
-              </div>
-              <div
-                class="input-group flatpickr wd-200 me-2 mb-2 mb-md-0"
-                id="dashboardDate"
-              >
-                <input
-                  type="text"
-                  class="form-control bg-transparent"
-                  placeholder="15.01.2022"
-                  data-input
-                />
-                <span
-                  class="input-group-text input-group-addon bg-transparent"
-                  data-toggle
-                  ><i data-feather="calendar"  style="color: #c2c4c9;"></i ></span>
-              </div>
+            <div class="left-right-admin">
+               <a href="#">Medkarting</a>
+               <a href="#">Phantom Guest</a>
             </div>
-          </div>
+       </div>
 
-          <div class="row">
-            <div
-              class="col-lg-12 col-xl-12 grid-margin grid-margin-xl-0 stretch-card"
-            >
-              <div class="card">
-                <div
-                  class="card-body"
-                  style="display: flex; flex-direction: column; gap: 1rem;"
-                >
-                  <table class="table">
-                    <thead class="thead-dark">
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Name, Surname</th>
-                        <th scope="col">Phone Number</th>
-                        <th scope="col">Email adress</th>
-                        <th scope="col">Entry Date</th>
-                        <th style="text-align: right;" scope="col">Exit Date</th>
-                        <th style="text-align: right;" scope="col">Checkbox</th>
-                      </tr>
-                    </thead>
-                    <tbody style="font-weight: 500">
-                      <tr>
-                        <th scope="row">01</th>
-                        <td>Saadat Abilova</td>
-                        <td>+994 70 582 68 28</td>
-                        <td>tagiyevasadt@gmail.com</td>
-                        <td >10.01.2022</td>
-                        <td style="text-align: right;">20.10.2022</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">02</th>
-                        <td>Elnur Ibrahimov</td>
-                        <td>+994 70 582 68 28</td>
-                        <td>tagiyevasadt@gmail.com</td>
-                        <td>10.01.2022</td>
-                        <td style="text-align: right;">20.10.2022</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">03</th>
-                        <td>Nazim Hamidli</td>
-                        <td>+994 70 582 68 28</td>
-                        <td>tagiyevasadt@gmail.com</td>
-                        <td>10.01.2022</td>
-                        <td style="text-align: right;">20.10.2022</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">04</th>
-                        <td>Farid Davudov</td>
-                        <td>+994 70 582 68 28</td>
-                        <td>tagiyevasadt@gmail.com</td>
-                        <td>10.01.2022</td>
-                        <td style="text-align: right;">20.10.2022</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">05</th>
-                        <td>Araz Davudov</td>
-                        <td>+994 70 582 68 28</td>
-                        <td>tagiyevasadt@gmail.com</td>
-                        <td>10.01.2022</td>
-                        <td style="text-align: right;">20.10.2022</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">06</th>
-                        <td>Rovsen Ibrahimov</td>
-                        <td>+994 70 582 68 28</td>
-                        <td>tagiyevasadt@gmail.com</td>
-                        <td>10.01.2022</td>
-                        <td style="text-align: right;">20.10.2022</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">07</th>
-                        <td>Aysel Abilova</td>
-                        <td>+994 70 582 68 28</td>
-                        <td>tagiyevasadt@gmail.com</td>
-                        <td>10.01.2022</td>
-                        <td style="text-align: right;">20.10.2022</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">01</th>
-                        <td>Ibrahim Aliyev</td>
-                        <td>+994 70 582 68 28</td>
-                        <td>tagiyevasadt@gmail.com</td>
-                        <td>10.01.2022</td>
-                        <td style="text-align: right;">20.10.2022</td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <footer
@@ -534,30 +375,12 @@
         </footer>
       </div>
     </div>
-    
     <script src="../assets/vendors/core/core.js"></script>
     <script src="../assets/vendors/flatpickr/flatpickr.min.js"></script>
     <script src="../assets/vendors/apexcharts/apexcharts.min.js"></script>
     <script src="../assets/vendors/feather-icons/feather.min.js"></script>
     <script src="../assets/js/template.js"></script>
     <script src="../assets/js/dashboard-light.js"></script>
-    <!-- <script>
-      var navItems = document.querySelectorAll(".nav-link");
-      var currentActiveItem = null;
 
-      navItems.forEach(function (item) {
-        item.addEventListener("click", function (event) {
-          event.preventDefault();
-
-          if (!item.classList.contains("active")) {
-            if (currentActiveItem) {
-              currentActiveItem.classList.remove("active");
-            }
-            item.classList.add("active");
-            currentActiveItem = item;
-          }
-        });
-      });
-    </script> -->
   </body>
 </html>

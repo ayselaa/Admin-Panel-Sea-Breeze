@@ -230,3 +230,26 @@ window.onclick = function(event) {
     }
   }
 }
+
+// Get the select element
+const languageSelect = document.getElementById('language-select');
+
+// Add an event listener for the change event
+languageSelect.addEventListener('change', function() {
+  // Get the selected value
+  const selectedLanguage = this.value;
+  
+  // Perform actions based on the selected language
+  switch (selectedLanguage) {
+    case 'en':
+      // Code to handle English language selection
+      break;
+    case 'fr':
+      // Code to handle French language selection
+      break;
+    case 'es':
+      // Code to handle Spanish language selection
+      break;
+    // Add more cases for additional language options
+  }
+});

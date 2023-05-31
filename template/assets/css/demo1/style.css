@@ -23753,3 +23753,144 @@ color: black !important;
 .nav-item.active .link-titlee svg {
   fill: white;
  }
+ 
+
+ .flex-menu-admin{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+ }
+
+ .left-right-admin{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ }
+
+
+ .left-right-admin a{
+text-decoration: none;
+color: black;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+background: #FFFFFF;
+border: 3px solid #EAECEF;
+border-radius: 4px;
+padding: 0.8rem;
+}
+.left-right-admin a:hover {
+  border: 3px solid 	#00BFFF;
+}
+
+#language-select {
+  font-size: 14px;
+  border: none; /* Remove the default border */
+  outline: none; /* Remove the outline when the select is focused */
+  appearance: none; /* Remove default appearance to allow custom styling */
+  width: 52px;
+  user-select: none;
+  font-weight: 600;
+}
+
+#language-select option:focus {
+  outline: none; /* Remove outline when option is focused */
+  border: none; /* Remove border when option is focused */
+}
+
+.admin-funzilla-flex{
+  display: grid;
+  grid-template-columns: 15fr 10fr;
+  gap: 1rem;
+}
+
+.left-right-funzilla{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fz-detail-text{
+border: 3px solid #F0F0F0;
+padding: 0.8rem;
+border-radius: 4px;
+}
+.fz-detail-text span{
+font-style: normal;
+font-weight: 200;
+font-size: 17px;
+line-height: 21px;
+color: #7A7070;
+word-spacing: 1px;
+font-family: 'Poppins';
+letter-spacing: -0.1pxpx;
+}
+.fz-detail-text:hover{
+  border: 3px solid 	#00BFFF;
+  
+}
+
+.title-adminn{
+  font-weight: 600;
+}
+
+.admin-images-flex{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+}
+
+.image-title{
+  margin-bottom: 1rem;
+}
+
+.image-title h3{
+  font-size: 1.3rem !important;
+  font-weight: 600;
+}
+
+.editimage img{
+border-radius: 4px;
+width: 17rem;
+}
+.editimage svg{
+border-radius: 4px;
+width: 17rem;
+}
+
+.imageadmin{
+  position: relative;
+  z-index: 3;
+}
+
+
+.image-uploadd > input
+{
+    display: none;
+}
+
+.image-uploadd svg
+{
+    cursor: pointer;
+}
+
+.image-uploadd{
+  position: absolute;
+  top: 43%;
+  z-index: 4;
+  transform: translate(88px, 0px);}
+
+.flex-label{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.addimage{
+  filter: grayscale(100%);
+}
+
+
